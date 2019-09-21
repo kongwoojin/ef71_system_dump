@@ -1,0 +1,1718 @@
+nf {
+  stream: "phoneme"
+  s_position: 0
+  feature: "num_preceding_phonemes_in_syllable"
+}
+nf {
+  stream: "phoneme"
+  s_position: 0
+  feature: "num_preceding_phonemes_in_word"
+}
+nf {
+  stream: "phoneme"
+  s_position: 0
+  feature: "num_succeeding_phonemes_in_syllable"
+}
+nf {
+  stream: "phoneme"
+  s_position: 0
+  feature: "num_succeeding_phonemes_in_word"
+}
+nf {
+  stream: "phoneme"
+  s_position: 0
+  feature: "onset"
+}
+nf {
+  stream: "phoneme"
+  s_position: 1
+  feature: "onset"
+}
+nf {
+  stream: "phoneme"
+  s_position: 2
+  feature: "onset"
+}
+nf {
+  stream: "phoneme"
+  s_position: 0
+  feature: "rounded"
+}
+nf {
+  stream: "phoneme"
+  s_position: 1
+  feature: "rounded"
+}
+nf {
+  stream: "phoneme"
+  s_position: 2
+  feature: "rounded"
+}
+nf {
+  stream: "phoneme"
+  s_position: 0
+  feature: "voiced"
+}
+nf {
+  stream: "phoneme"
+  s_position: 1
+  feature: "voiced"
+}
+nf {
+  stream: "phoneme"
+  s_position: 2
+  feature: "voiced"
+}
+nf {
+  stream: "phoneme"
+  s_position: 0
+  feature: "vowel"
+}
+nf {
+  stream: "phoneme"
+  s_position: 1
+  feature: "vowel"
+}
+nf {
+  stream: "phoneme"
+  s_position: 2
+  feature: "vowel"
+}
+nf {
+  stream: "phrase"
+  s_position: 0
+  feature: "num_syllables"
+}
+nf {
+  stream: "phrase"
+  s_position: 1
+  feature: "num_syllables"
+}
+nf {
+  stream: "phrase"
+  s_position: 2
+  feature: "num_syllables"
+}
+nf {
+  stream: "phrase"
+  s_position: 0
+  feature: "num_words"
+}
+nf {
+  stream: "phrase"
+  s_position: 1
+  feature: "num_words"
+}
+nf {
+  stream: "phrase"
+  s_position: 2
+  feature: "num_words"
+}
+nf {
+  stream: "specification"
+  s_position: 0
+  feature: "num_phrases_in_sentence"
+}
+nf {
+  stream: "syllable"
+  s_position: 0
+  feature: "num_phonemes"
+}
+nf {
+  stream: "syllable"
+  s_position: 1
+  feature: "num_phonemes"
+}
+nf {
+  stream: "syllable"
+  s_position: 2
+  feature: "num_phonemes"
+}
+nf {
+  stream: "syllable"
+  s_position: 0
+  feature: "num_preceding_syllables_in_phrase"
+}
+nf {
+  stream: "syllable"
+  s_position: 0
+  feature: "num_preceding_syllables_in_word"
+}
+nf {
+  stream: "syllable"
+  s_position: 0
+  feature: "num_succeeding_syllables_in_phrase"
+}
+nf {
+  stream: "syllable"
+  s_position: 0
+  feature: "num_succeeding_syllables_in_word"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_preceding_content_words_in_phrase"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_preceding_silences_in_sentence"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_preceding_words_in_phrase"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_succeeding_content_words_in_phrase"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_succeeding_silences_in_sentence"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_succeeding_words_in_phrase"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_syllables"
+}
+nf {
+  stream: "word"
+  s_position: 1
+  feature: "num_syllables"
+}
+nf {
+  stream: "word"
+  s_position: 2
+  feature: "num_syllables"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_words_to_next_content_word_in_phrase"
+}
+nf {
+  stream: "word"
+  s_position: 0
+  feature: "num_words_to_previous_content_word_in_phrase"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "height"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "height"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "height"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "height"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "height"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "height"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "height"
+  }
+  ival: 7
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "height"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "height"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "height"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "height"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "height"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "height"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "height"
+  }
+  ival: 7
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "height"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "height"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "height"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "height"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "height"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "height"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "height"
+  }
+  ival: 7
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "manner"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "manner"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "manner"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "manner"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "manner"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "manner"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "manner"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "manner"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "manner"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "manner"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "manner"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "manner"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "manner"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "manner"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "manner"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "manner"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "manner"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "manner"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "a"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "b"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "ch"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "d"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "e"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "eu"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "g"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "h"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "i"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "j"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "jj"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "k"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "kk"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "m"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "n"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "ng"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "o"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "p"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "pp"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "r"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "s"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "sil"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "ss"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "t"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "tt"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "u"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "uh"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "w"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "name"
+  }
+  sval: "y"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "a"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "b"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "ch"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "d"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "e"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "eu"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "g"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "h"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "i"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "j"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "jj"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "k"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "kk"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "m"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "n"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "ng"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "o"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "p"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "pp"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "r"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "s"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "sil"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "ss"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "t"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "tt"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "u"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "uh"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "w"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "name"
+  }
+  sval: "y"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "a"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "b"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "ch"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "d"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "e"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "eu"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "g"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "h"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "i"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "j"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "jj"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "k"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "kk"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "m"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "n"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "ng"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "o"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "p"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "pp"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "r"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "s"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "sil"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "ss"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "t"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "tt"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "u"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "uh"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "w"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "name"
+  }
+  sval: "y"
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "poa"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "poa"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "poa"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "poa"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "poa"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "poa"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "poa"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "poa"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "poa"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "poa"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "poa"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "poa"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "poa"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "poa"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "poa"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "poa"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "poa"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "poa"
+  }
+  ival: 6
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "position"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "position"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "position"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "position"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 0
+    feature: "position"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "position"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "position"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "position"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "position"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 1
+    feature: "position"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "position"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "position"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "position"
+  }
+  ival: 3
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "position"
+  }
+  ival: 4
+}
+question {
+  nf {
+    stream: "phoneme"
+    s_position: 2
+    feature: "position"
+  }
+  ival: 5
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "stress"
+  }
+  ival: 0
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "stress"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "stress"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "stress"
+  }
+  ival: 0
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "stress"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "stress"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "stress"
+  }
+  ival: 0
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "stress"
+  }
+  ival: 1
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "stress"
+  }
+  ival: 2
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "vowel_of_syllable"
+  }
+  sval: "a"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "vowel_of_syllable"
+  }
+  sval: "e"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "vowel_of_syllable"
+  }
+  sval: "eu"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "vowel_of_syllable"
+  }
+  sval: "i"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "vowel_of_syllable"
+  }
+  sval: "o"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "vowel_of_syllable"
+  }
+  sval: "u"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 0
+    feature: "vowel_of_syllable"
+  }
+  sval: "uh"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "vowel_of_syllable"
+  }
+  sval: "a"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "vowel_of_syllable"
+  }
+  sval: "e"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "vowel_of_syllable"
+  }
+  sval: "eu"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "vowel_of_syllable"
+  }
+  sval: "i"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "vowel_of_syllable"
+  }
+  sval: "o"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "vowel_of_syllable"
+  }
+  sval: "u"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 1
+    feature: "vowel_of_syllable"
+  }
+  sval: "uh"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "vowel_of_syllable"
+  }
+  sval: "a"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "vowel_of_syllable"
+  }
+  sval: "e"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "vowel_of_syllable"
+  }
+  sval: "eu"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "vowel_of_syllable"
+  }
+  sval: "i"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "vowel_of_syllable"
+  }
+  sval: "o"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "vowel_of_syllable"
+  }
+  sval: "u"
+}
+question {
+  nf {
+    stream: "syllable"
+    s_position: 2
+    feature: "vowel_of_syllable"
+  }
+  sval: "uh"
+}
+unit_type: PHONE

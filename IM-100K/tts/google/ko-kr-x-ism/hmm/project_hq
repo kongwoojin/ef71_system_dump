@@ -1,0 +1,29 @@
+#!PA_PROJECT!#
+Description                    "Blaze-generated greco_hmm_phone voice for ko_kr (speaker ism, sample rate 22050, size android)";
+ServerVoiceName                "ism-phone-hmm";
+speaker                        "ism";
+sample_rate                    "22050";
+gender                         "female";
+subset                         "android";
+aligner                        "flatstart";
+language                       "ko";
+region                         "kr";
+quality                        "normal";
+supports_set_sample_rate       "false";
+pipeline                       "flatstart_greco_hmm_phone_ko_kr_ism_22050_android.pipeline";
+hmm_compile_params_file        "compile_hmm_phoneme.cfg";
+engine_config                  "engine_config_ko_kr.pb";
+hmm_engine_params_file         "engine_hmm_22050_vocaine-embedded_mcep.cfg";
+greco_hmm_voice                "greco_hmm_voice_ko_kr_ism_android_22050_phoneme_mcep_swop_ap_msd_bin_8bit.voice";
+lexicon                        "compressed_lexicon_ko_kr.blex";
+patts1_kestrel                 "textnorm_kestrel.cfg";
+patts1_phonology               "phonology.cfg";
+phoneme_hmm_linguistic_features "phoneme_hmm.params";
+phonology                      "phonology.pb";
+pronunciation_generator        "g2p_m3_syls0_stress0_ko-KR.fst";
+textnorm_params                "textnorm_params.pb";
+tokenize_and_classify          "tokenize_and_classify_android.far";
+transliterate                  "transliterate_android.far";
+verbalize                      "verbalize_android.far";
+modules                        "tokenize_and_classify_kestrel verbalize_kestrel transliterate pronounce add_specification hmm";
+

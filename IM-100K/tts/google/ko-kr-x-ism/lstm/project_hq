@@ -1,0 +1,34 @@
+#!PA_PROJECT!#
+Description                    "Blaze-generated greco_embedded_lstm voice for ko_kr (speaker ism, sample rate 22050, size android)";
+ServerVoiceName                "ism-greco-embedded-zeong";
+speaker                        "ism";
+sample_rate                    "22050";
+gender                         "female";
+subset                         "android";
+aligner                        "flatstart";
+language                       "ko";
+region                         "kr";
+quality                        "normal";
+supports_set_sample_rate       "true";
+pipeline                       "flatstart_greco_embedded_lstm_ko_kr_ism_22050_android.pipeline";
+acoustic_frame_config          "mcep40win1_bap7win1_lf01win1_voicing1win1.pb";
+engine_config                  "engine_config_ko_kr_ism_android_parametric_synthesis_embedded.pb";
+lexicon                        "compressed_lexicon_ko_kr.blex";
+lstm_dur_input_mean_std_dev    "lstm_dur_model_ko_kr_ism_android_22050_embedded_phoneme_nn_mcep_cmp.input_mean_std_dev";
+lstm_dur_nn_config             "lstm_dur_model_ko_kr_ism_android_22050_embedded_phoneme_nn_mcep_cmp.nn_config";
+lstm_dur_output_mean_std_dev   "lstm_dur_model_ko_kr_ism_android_22050_embedded_phoneme_nn_mcep_cmp.output_mean_std_dev";
+lstm_speech_input_mean_std_dev "lstm_speech_model_ko_kr_ism_android_22050_embedded_phoneme_nn_mcep_cmp.input_mean_std_dev";
+lstm_speech_nn_config          "lstm_speech_model_ko_kr_ism_android_22050_embedded_phoneme_nn_mcep_cmp.nn_config";
+lstm_speech_output_mean_std_dev "lstm_speech_model_ko_kr_ism_android_22050_embedded_phoneme_nn_mcep_cmp.output_mean_std_dev";
+morphing_palette               "speech_morphing_palette.pb";
+nn_linguistic_features         "embedded_phoneme_lstm.params";
+patts1_kestrel                 "textnorm_kestrel.cfg";
+patts1_phonology               "phonology.cfg";
+phonology                      "phonology.pb";
+pronunciation_generator        "g2p_m3_syls0_stress0_ko-KR.fst";
+textnorm_params                "textnorm_params.pb";
+tokenize_and_classify          "tokenize_and_classify_android.far";
+transliterate                  "transliterate_android.far";
+verbalize                      "verbalize_android.far";
+modules                        "tokenize_and_classify_kestrel verbalize_kestrel transliterate pronounce lstm_synthesizer utterance_to_audio_event";
+
